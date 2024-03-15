@@ -80,7 +80,7 @@ discount:parseInt(planss.Inventory.split(' ')[0]),
 
       <div className="paper-container">
         <div className="printer-bottom"></div>
-
+{/* test */}
         <div className="paper">
           <div className="main-contents">
             <div className="success-icon">&#10004;</div>
