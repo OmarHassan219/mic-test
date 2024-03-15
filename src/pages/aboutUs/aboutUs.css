@@ -1,0 +1,89 @@
+.about-us{
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+
+    color: #0b0f15;
+
+}
+.about-img{
+    max-width: 100%;
+}
+.about-us .containerry{
+    padding: 80px 70px ;
+    
+}
+
+@media (max-width: 900px) {
+    .welcome{
+        flex-direction: column;
+    } 
+    
+}
+@media (max-width: 500px) {
+    .about-us .containerry{
+        padding: 80px 30px ;
+    } 
+    
+}
+@media (max-width: 300px) {
+    .about-us .containerry{
+        padding: 80px 10px ;
+    } 
+    
+}
+.about-us .welcome , .about-us .why-section , .about-us .vision{
+margin-left: auto;
+margin-right: auto;
+max-width: 1080px;
+}
+.about-us .welcome {
+    margin-bottom: 80px;
+}
+.about-us .why-section{
+    margin-bottom: 90px;
+
+}
+.special{
+    color: #FE4526;
+    font-size: 17px;
+    position: relative;
+    margin-left: 44px;
+}
+.special::before{
+    background-color: #FE4526;
+    font-size: 17px;
+    content: "";
+    height: 1.5px;
+    left: -44px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 37px;
+    position: absolute;
+}
+
+
+
+
+.vision .about-card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.about-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+    .about-card{
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .about-card img{
+        margin-bottom: 20px;
+    }
+}
+
+

@@ -1,0 +1,105 @@
+.hero-section{
+    /* background: linear-gradient(135deg, #0b0f15, #1a1f2c); */
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+min-height: 100vh;
+padding: 70px 0;
+}
+
+.hero-section .hero-image{
+    visibility: hidden !important;
+    width: 70%;
+}
+.hero-section .gif{
+width: 300px;
+max-width: 70%;
+}
+
+.typewriter h1{
+  /* color: rgb(197, 191, 191); */
+  font-size: 50px;
+    font-weight: 600;
+    color: #008080; /* Teal text */
+
+}
+.marquee{
+  border: 1px solid #008080;
+  border-color: #008080 transparent;
+}
+
+
+  
+  /* Apply animations to the spans */
+  
+  .new-text{
+    padding: 5px 10px;
+    margin-bottom: 0;
+    background-color: rgb(180, 180, 33);
+border-radius: 10px;
+font-weight: 500;
+font-size: x-large;
+text-transform: capitalize;
+
+  }
+  .join-text{
+font-weight: 500;
+font-size: 20px;
+text-transform: capitalize;
+
+  }
+  
+
+.hero-text{
+  padding: 0 60px !important;
+}
+
+
+.Typewriter__wrapper{
+  /* font-size: 70px !important; */
+  font-weight: bold !important;
+  background: linear-gradient(45deg, #09a309 40%, #000000 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* .Typewriter__cursor{
+  font-size: 70px !important;
+} */
+
+
+
+
+.responsive-font {
+  font-size: 30px; /* Default Font Size */
+
+  /* Responsive Font Size Adjustments */
+  @media (min-width: 400px) {
+    font-size: 40px; /* Small devices (576px and up) */
+  }
+  @media (min-width: 768px) {
+    font-size: 60px; /* Medium devices (768px and up) */
+  }
+  @media (min-width: 992px) {
+    font-size: 60px; /* Large devices (992px and up) */
+  }
+  @media (min-width: 1200px) {
+    font-size: 70px; /* Extra large devices (1200px and up) */
+  }
+}
+.easiest {
+  font-size: 20px; /* Default Font Size */
+
+  /* Responsive Font Size Adjustments */
+  @media (min-width: 400px) {
+    font-size: 40px; /* Small devices (576px and up) */
+  }
+  @media (min-width: 768px) {
+    font-size: 40px; /* Medium devices (768px and up) */
+  }
+  @media (min-width: 992px) {
+    font-size: 45px; /* Large devices (992px and up) */
+  }
+  @media (min-width: 1200px) {
+    font-size: 50px; /* Extra large devices (1200px and up) */
+  }
+}

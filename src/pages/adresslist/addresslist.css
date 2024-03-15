@@ -1,0 +1,72 @@
+.address-parent{
+background: linear-gradient(135deg, #0b0f15, #1a1f2c);
+color: #ddd;
+}
+
+
+
+.profile-info-container{
+    background-color: transparent;
+    color: white;
+    width: 500px;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+
+/* CSS for Address Styling */
+/* .address-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .company, .country , .city, .state, .street, .zip {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .company {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Add more styles as needed */
+  
+  /* Hover effect (optional) */
+  /* .address-container:hover {
+    background-color: #e0e0e0;
+  } */
+  
+
+  /* Add these styles to your CSS */
+
+table {
+  border:  1px solid #fff;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: transparent; /* Set the background to transparent */
+  color: white; /* Set the text color to white */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: transparent;
+  border: 1px solid #ddd;
+
+}
+tr{
+  border: 1px solid #ddd  !important;
+}
+/* Optional: Add hover effect for table rows */
+tr:hover {
+  background-color: #12051f;
+}

@@ -1,0 +1,81 @@
+.add-products label:not(.vat-label){
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.add-products input:not(.vat) , select , .add-product-button{
+font-size: 20px;
+padding: 7px;
+border-radius: 10px;
+border: 2px solid #ccc;
+width: 100%;
+display: block;
+margin-top: 5px !important;
+}
+.vat{
+    width: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+select{
+    cursor: pointer;
+}
+
+
+
+.add-product-header{
+    background-color: #fff5f5;
+    padding: 30px;
+}
+.add-product-form{
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 30px;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus,
+select:focus {
+  outline: none;
+  border: 2px solid #ccc;
+
+}
+
+input:disabled{
+border: 2px dashed black;
+}
+
+/* input[type="file"]{
+position: relative;
+
+
+} */
+.add-products .progress{
+position: absolute;
+/* width: 98%; */
+height: 2.7px;
+background: rgb(254,69,38);
+background: linear-gradient(90deg, rgba(254,69,38,1) 25%, rgba(0,167,238,1) 50%, rgba(114,188,31,1) 75%, rgba(254,183,31,1) 100%);
+left: 4px;
+top: 0;
+}
+
+.add-product-button:hover{
+    background-color: #cccccc69;
+}
+
+@media (max-width:767px) {
+    
+    .gap-5{
+        flex-direction: column;
+    }
+}

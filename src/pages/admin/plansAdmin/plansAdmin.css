@@ -1,0 +1,10 @@
+.b2b button{
+   transition: all 0.3s ;
+    background-color: white;
+    color: black;
+}
+.b2b button:hover , .b2b button.active{
+    background-color: blueviolet;
+    color: white;
+    
+}
